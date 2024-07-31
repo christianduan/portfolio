@@ -2,6 +2,7 @@ import NavBar from "@/components/navBar";
 import AboutMe from "@/components/AboutMe";
 import { Box, Typography } from "@mui/material";
 import Projects from "@/components/projects";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -40,6 +41,8 @@ export default function Home() {
       </Box>
 
       <Projects/>
+
+      <Contact/>
       
     </div>
   );
