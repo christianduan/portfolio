@@ -10,7 +10,7 @@ export default function Home() {
       display: 'flex',
       flexDirection: 'column',
       backgroundColor: '#44475A',
-      height: '100vh'
+      height: '100%'
     }}>
       <NavBar/>
 
@@ -18,16 +18,10 @@ export default function Home() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '20px'
+        padding: '20px',
       }}>
         <AboutMe/>
-        <Box sx={{ flexShrink: 0, marginLeft: '20px' }}>
-          <img src="/me.jpg" alt="Me"
-            style={{
-              width: '200px',
-              borderRadius: '50%',
-            }}/>
-        </Box>
+        
       </Box>
 
       <Box sx={{
@@ -41,9 +35,11 @@ export default function Home() {
       </Box>
 
       <Projects/>
-
-      <Contact/>
-      
+      <Box sx={{
+        padding: '20px',
+      }}>
+        <Contact/>
+      </Box>
     </div>
   );
 }
