@@ -29,7 +29,9 @@ const Projects = () => {
                             }}/>
                         </Box>
                         <Typography style={{ color: 'white' }}>
-                        Description for Project 1.
+                        A simple redesign of the current Electronic Water Scheduling Program the folks at
+                        Turlock Irrigation District, TID, were using. The redesign was implemented using the
+                        React framework, Material UI library, and the FlaskAPI.
                         </Typography>
                     </Box>
                 </Grid>
@@ -57,7 +59,10 @@ const Projects = () => {
                             }}/>
                         </Box>
                         <Typography style={{ color: 'white' }}>
-                        Description for Project 2.
+                        A simple web-based music player created using HTML and JavaScript. The app utilizes
+                        preloaded songs that the users can add at their liesure and play them using the app.
+                        Further addition of using an API to fetch songs and their metadata is yet to be added
+                        currently.
                         </Typography>
                     </Box>
                 </Grid>
